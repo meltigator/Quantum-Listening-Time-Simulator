@@ -27,7 +27,7 @@ The core idea of time dilation from the Quantum-Time-Dilation-Simulator scripts 
 1. “The Entangled Clock”: Quantum Time Dilation via Entanglement
 Imagine two quantum “clocks,” each represented by a qubit. These clocks tick, changing state (e.g., from ∣0⟩ to ∣1⟩ and back) at a certain frequency.
 
-##Concept:
+## Concept:
 
 - Clock A (Stationary): A freely evolving qubit.
 
@@ -40,7 +40,7 @@ Entanglement/Decoherence: For Clock B, create entanglement (e.g., via a CNOT gat
 
 Measurement and Comparison: After several “ticks,” measure both clock qubits. Clock B, due to entanglement/decoherence, may show a different phase or state than Clock A — simulating a “dilation” or “interference” in its internal time evolution.
 
-Why It Works:
+## Why It Works:
 Simple: Requires only a few qubits and basic gates.
 
 Visual: Circuit evolution can be shown clearly.
@@ -50,14 +50,15 @@ Profound: Introduces the idea that interaction (simulating motion/environment) a
 2. “Information Lost in Time”: Simulating a Forgotten Message
 This simulation aims to show how information “decays” over time, making it impossible to retrieve after a certain interval — touching on irreversibility.
 
-Concept:
-Initial State (Message): Encode a simple “message” (e.g., bit 0 or 1) in a qubit.
+## Concept:
 
-Temporal Evolution/Decoherence: Evolve the qubit through operations simulating environmental interaction (noise) or coherence loss. This simulates the passage of time and the “forgetting” of the message.
+- Initial State (Message): Encode a simple “message” (e.g., bit 0 or 1) in a qubit.
 
-Attempted Recovery (Message from the Past): After some time, attempt to recover the original message by applying inverse operations.
+- Temporal Evolution/Decoherence: Evolve the qubit through operations simulating environmental interaction (noise) or coherence loss. This simulates the passage of time and the “forgetting” of the message.
 
-What to Simulate:
+- Attempted Recovery (Message from the Past): After some time, attempt to recover the original message by applying inverse operations.
+
+## What to Simulate:
 Initialization: Set a qubit to the “message” state (e.g., ∣0⟩ or ∣1⟩).
 
 Time Passage: Apply random gates or depolarizing/noise gates at regular intervals. Each block of gates represents a “time step.”
