@@ -77,3 +77,5 @@ Ties to “Message to Yourself”: If you can’t recover a lost message from th
 
 
 Showing — through a simple simulation — that quantum information is incredibly fragile and prone to coherence loss (which we can interpret as “time destroying information”) can be deeply impactful. It invites reflection on the idea that, if information is fundamentally subject to such constraints, then macroscopic time travel becomes even more conceptually problematic.
+
+Coming Soon..!
