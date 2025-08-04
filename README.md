@@ -1,6 +1,6 @@
-# Quantum-Listening-Time-Simulator
+# ___Quantum-Listening-Time-Simulator___
 
-Simplicity in Quantum Time. Goal: To simulate sending a message to myself with a time offset of -1 hour relative to the present.
+### Simplicity in Quantum Time. Goal: To simulate sending a message to myself with a time offset of -1 hour relative to the present.
 
 My aim is to create a demonstration accessible across various levels of expertise — from beginner to researcher. Starting from the concept of time and temporal dilation, as explored in the Bash scripts:
 time_dilation_fpga_v5.sh time_dilation_fpga_v6_ASCII.sh
