@@ -5,7 +5,7 @@
 # La Semplicità nel Tempo Quantistico - Simulazione Δt = -1h
 # 
 # Based on Quantum-Time-Dilation-Simulator architecture
-# Version: 2.0 - Quantum Temporal Coherence Engine
+# Version: 1.1a - Quantum Temporal Coherence Engine
 # Author Andrea Giani
 # ==============================================================================
 
@@ -934,3 +934,4 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     main "$@"
 
 fi
+
