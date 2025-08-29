@@ -898,12 +898,12 @@ main() {
             perform_quantum_tomography
             monitor_fpga_resources
             
-            # Physical interpretation
-            log_message "CONCLUSION" "=== Conclusioni Fisiche ==="
-            log_message "CONCLUSION" "1. La decoerenza quantistica impedisce la conservazione dell'informazione nel tempo"
-            log_message "CONCLUSION" "2. L'entanglement temporale si degrada esponenzialmente"
-            log_message "CONCLUSION" "3. Il principio di causalità è preservato dalla meccanica quantistica"
-            log_message "CONCLUSION" "4. L'invio di messaggi a Δt = -1h è fisicamente impossibile"
+            # Physical interpretation           
+            log_message "CONCLUSION" "=== Physical Conclusions ==="
+            log_message "CONCLUSION" "1. Quantum decoherence prevents the preservation of information over time"
+            log_message "CONCLUSION" "2. Temporal entanglement degrades exponentially"
+            log_message "CONCLUSION" "3. The principle of causality is preserved by quantum mechanics"
+            log_message "CONCLUSION" "4. Sending messages at Δt = -1h is physically impossible"            
             
             ;;
         "tests")
@@ -932,4 +932,5 @@ trap 'log_message "WARNING" "Simulation terminated"; exit 143' SIGTERM
 # Execute main function if script is run directly
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     main "$@"
+
 fi
